@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/*  Global Page Elements  */
+
+html, * {
+    box-sizing: border-box; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: rgb(22,22,26);
+    background: linear-gradient(0deg, rgba(22,22,26,1) 0%, rgba(127,90,240,1) 94%, rgba(127,90,240,1) 100%);
+}
+
+/*  Header  */
+
+header {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(44, 44, 44, 1);
+    position: fixed;
+    width: calc(100%);
+    margin: -8px;
+}
+
+h1 {
+    display: flex;
+    color: #fffffe;
+    line-height: 40px;
+    font-size: 48px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/*  Header Helper Classes  */
+
+.top-links {
+    display: flex;
+    margin-left: auto;
+    font-size: 18px;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.top-links a {
+  margin-right: 25px;
+  color: #fffffe;
+}
+
+/*  Main  */
+
+main {
+  padding-top: 150px;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*  About Me Section  */
+
+.profilepic{
+  display: flex;
+  height: 350px;
+  width: auto;
+  border: 2px solid black;
+  flex-wrap: wrap;
+  box-shadow: -10px 10px 8px #7f5af0;
+  margin-left: 80px;
+}
+
+.page-title{
+ margin-top: 20px;
+ font-size: 30px;
+ font-family: 'Roboto', sans-serif;
+ text-align: left;
+ font-weight: bold;
+ display: flex;
+ flex-wrap: wrap;
+ margin-right: 400px;
+ line-height: 65px;
+ color: #94a1b2;
+}
+
+/*  Projects Section  */
+
+.my-projects{
+    display: flex;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.projectName1, .projectName2, .projectName3, .projectName4, .projectName5 {
+    margin-top: 75px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: #fffffe;
+}
+
+.workInProgress{
+    height: 300px; 
+}
+
+/*  Footer  */
+
+footer {
+    margin-top: 70px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding-bottom: 50px;
+    
+}
+
+/*  Footer Helper Classes  */
+
+.contactImages {
+    height: 60px;
+}
+
+
+ /*  Media Query for Phones, Tablets, and Laptop/PCs  */
+
+ @media (max-width: 375px) {
+    .top-links {
+       font-size: 12px;
+}
+}
+
+ @media (min-width: 376px) and (max-width: 480px) {
+    .top-links {
+        font-size: 14px;
+    }
+}
+
+ @media (max-width: 480px) {
+    .page-title {
+        font-size: 16px;
+        font-weight: bolder;
+        margin-right: auto;
+        text-align: center;
+        line-height: 2;
+
+}
+
+    .profilepic {
+        margin-right: 80px;
+
+}
+
+    .my-projects {
+        margin-top: -30px;
+
+}
+
+    .top-links {
+        margin-left: 20px;
+
+}
+
+   .top-links a {
+        margin-right: 10px;
+}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .page-title {
+        margin-right: inherit;
+        line-height: 45px;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .profilepic {
+        margin-left: inherit;
+     
+}
+}
+
+@media (min-width: 768px) and (max-width: 1265px){
+    .profilepic {
+        margin: auto;
+    }
+
+    .page-title {
+        margin: auto;
+        text-align: center;    
+}
+}
+
+@media (min-width: 1266px) and (max-width:1615px){
+    .profilepic {
+        margin: auto;
+
+    }
+
+    .page-title {
+        font-size: 26px;
+        margin-right: auto;
+
+}
+}
+
+@media (min-width:1666px){
+    .page-title {
+        margin-right: 200px;
+
+}
+}

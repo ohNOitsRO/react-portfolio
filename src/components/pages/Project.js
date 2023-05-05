@@ -21,21 +21,21 @@ export default function Header() {
     </img>
 
     <p>Project 3</p>
-    <img src="./assets/images/FavSavs.png" 
+    <img src="./assets/images/questionBlock.png" 
          alt="Work In Progress"
          id="projectName3"
          href="https://github.com/ohNOitsRO/">
     </img>
 
     <p>Project 4</p>
-    <img src="./assets/images/FavSavs.png" 
+    <img src="./assets/images/questionBlock.png" 
          alt="Work In Progress"
          id="projectName4"
          href="https://github.com/ohNOitsRO/">
     </img>
 
     <p>Project 5</p>
-    <img src="./assets/images/FavSavs.png" 
+    <img src="./assets/images/questionBlock.png" 
          alt="Work In Progress"
          id="projectName5"
          href="https://github.com/ohNOitsRO/">
