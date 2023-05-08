@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default function Header() {
+export default function Projects() {
   return (
     <section class="my-projects" id="projects">
 
