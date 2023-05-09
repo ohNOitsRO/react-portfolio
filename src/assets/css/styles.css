@@ -3,7 +3,8 @@
 /*  Global Page Elements  */
 
 html, * {
-    box-sizing: border-box; 
+    box-sizing: border-box;
+
 }
 
 *, *:before, *:after {
@@ -66,7 +67,7 @@ main {
 
 /*  About Me Section  */
 
-.profilepic{
+#about-me{
   display: flex;
   height: 350px;
   width: auto;
@@ -128,8 +129,9 @@ footer {
 
 /*  Footer Helper Classes  */
 
-.contactImages {
+#contactImages {
     height: 60px;
+
 }
 
 

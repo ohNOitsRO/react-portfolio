@@ -1,11 +1,11 @@
 import React from 'react';
-
+import ProfilePic from '../../assets/images/profilepic.jpg'
 
 export default function About() {
     return (
         <section class="page-title">
-        <img src="./assets/images/profilepic.jpg" 
-             alt="Roland's Profile Picture"
+        <img src={ProfilePic}
+             alt="Roland's Profile"
              id ="about-me"></img>
     
             
