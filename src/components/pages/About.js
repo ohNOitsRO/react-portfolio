@@ -3,7 +3,7 @@ import ProfilePic from '../../assets/images/profilepic.jpg'
 
 export default function About() {
     return (
-        <section class="page-title">
+        <section className="page-title">
         <img src={ProfilePic}
              alt="Roland's Profile"
              id ="about-me"></img>

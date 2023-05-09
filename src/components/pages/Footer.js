@@ -12,20 +12,20 @@ const footerStyle = {display: 'flex',
 export default function Footer() {
   return (
      <div style={footerStyle}>
-        <img src={Github}
+        <a><img src={Github}
           id="contactImages"
           alt="Github Portfolio"
-          href="https://github.com/ohNOitsRO/"></img>
+          href="https://github.com/ohNOitsRO/"></img></a>
             
-        <img src={Email}
+        <a><img src={Email}
           id="contactImages"
           alt="My Email"
-          href="mailto:fake.email@gmail.com"></img>
+          href="mailto:fake.email@gmail.com"></img></a>
 
-        <img src={Linkedin} 
+        <a><img src={Linkedin} 
           id="contactImages"
           alt="LinkedIn Profile"
-          href="http://www.linkedin.com"></img>
+          href="http://www.linkedin.com"></img></a>
      </div>
   );
 }
