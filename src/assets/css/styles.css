@@ -26,10 +26,9 @@ html, * {
     box-sizing: inherit;
 }
 
-/* body {
-    background: rgb(22,22,26);
-    background: linear-gradient(0deg, rgba(22,22,26,1) 0%, rgba(127,90,240,1) 94%, rgba(127,90,240,1) 100%);
-} */
+body {
+   color: white;
+}
 
 /*  Header  */
 .nav {
@@ -53,7 +52,7 @@ html, * {
 }
 
 .nav-link {
-  color: #03071e;
+  color: #db2e01;
 }
 
 .row {

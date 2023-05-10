@@ -4,7 +4,6 @@ import Footer from './components/pages/Footer'
 
 const App = () => <>
 <PortfolioContainer />
-<Footer />;
 </>
 
 export default App;
