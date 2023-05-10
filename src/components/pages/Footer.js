@@ -24,7 +24,7 @@ export default function Footer() {
           alt="My Email">
         </img></a>
 
-        <a href="http://www.linkedin.com"><img src={Linkedin} 
+        <a href="https://www.linkedin.com/in/roland-delgado-794237271/"><img src={Linkedin} 
           id="contactImages"
           alt="LinkedIn Profile">
         </img></a>

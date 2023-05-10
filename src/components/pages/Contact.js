@@ -11,11 +11,13 @@ function Contact() {
   };
 
   return (
+    <div className="form-group cover-container d-flex w-50 h-100 p-3 mx-auto flex-column">
     <form onSubmit={handleSubmit}>
       <label htmlFor="email">Email</label>
       <input
         type="email"
         id="email"
+        className="form-control"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         required
@@ -25,6 +27,7 @@ function Contact() {
       <input
         type="text"
         id="name"
+        className="form-control"
         value={name}
         onChange={(e) => setName(e.target.value)}
         required
@@ -33,13 +36,15 @@ function Contact() {
       <label htmlFor="message">Message</label>
       <textarea
         id="message"
+        className="form-control"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         required
       />
 
-      <button type="submit">Send</button>
+      <button type="submit" class="btn btn-dark">Send</button>
     </form>
+    </div>
   );
 }
 

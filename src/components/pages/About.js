@@ -70,25 +70,23 @@ import ProfilePic from '../../assets/images/profilepic.jpg'
 
 export default function About() {
     return (
-        // <section className="page-title">
-        <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
         
-        {/* <main role="main" class="inner cover"> */}
+        <div className="cover-container d-flex h-100 p-3 mx-auto flex-column">
+        
         <img src={ProfilePic}
              alt="Roland's Profile"
              id ="about-me"
-             class="d-block mx-lg-auto img-fluid"></img>
-        <p class="lead">Miami based Fullstack web designer and developer, 
+             className="d-block mx-lg-auto img-fluid"></img>
+        <p className="lead">Miami based Fullstack web designer and developer, 
             fluent in HTML, CSS, JavaScript, mySQL, and MERN.    
             100% Computer Geek certified, show binger, and lover of all sports. 
             Simple, efficient, and elegant designs. 
             Proud student of the University of Miami Coding Bootcamp.
-            Keep up with me and all my current and upcoming projects here!</p>
-        <p class="lead">
+            Keep up with me and all my current and upcoming projects here!
         </p>
-      {/* </main> */}
-            {/* </section> */}
-            </div>
+        
+        
+        </div>
             
             
     )

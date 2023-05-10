@@ -6,7 +6,7 @@ import QuestionBlock from '../../assets/images/questionBlock.png'
 
 export default function Projects() {
   return (
-    <section class="my-projects" id="projects">
+    <section className="my-projects" id="projects">
     
     <div>
     <img src={NBAbetHub}
@@ -22,7 +22,7 @@ export default function Projects() {
     </img></div>
     
     <div>
-    Project 3
+    <div>Project 3</div>
     <img src={QuestionBlock}
          alt="Work In Progress"
          id="projectName3"
@@ -30,7 +30,7 @@ export default function Projects() {
     </img></div>
 
     <div>
-     Project 4
+     <div>Project 4</div>
     <img src={QuestionBlock}
          alt="Work In Progress"
          id="projectName4"
@@ -38,7 +38,7 @@ export default function Projects() {
     </img></div>
     
     <div>
-    Project 5
+    <div>Project 5</div>
     <img src={QuestionBlock}
          alt="Work In Progress"
          id="projectName5"
