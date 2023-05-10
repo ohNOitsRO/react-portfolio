@@ -6,7 +6,7 @@ const headerStyle = {listStyle: "none",
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <ul className= "nav nav-tabs">
+    <ul className="nav nav-tabs">
       <li className="nav-item" style={headerStyle}>
         <a
           href="#home"

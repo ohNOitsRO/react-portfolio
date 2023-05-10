@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 /*  Global Page Elements  */
+:root {
+  --bs-body-bg: transparent;
 
+}
 html {
-    background: rgb(22,22,26);
-    background: linear-gradient(0deg, rgba(22,22,26,1) 0%, rgba(127,90,240,1) 94%, rgba(127,90,240,1) 100%);
-    height: 100%
+    /* background: rgb(22,22,26);
+    background: linear-gradient(0deg, rgba(22,22,26,1) 0%, rgba(127,90,240,1) 94%, rgba(127,90,240,1) 100%); */
+    height: 100%;
+    background-image: url("../images/bgminimal.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
 }
 
 
@@ -25,6 +32,34 @@ html, * {
 } */
 
 /*  Header  */
+.nav {
+  justify-content: flex-end;
+
+}
+
+.nav-tabs {
+  --bs-nav-tabs-link-active-bg: transparent;
+  color: white;
+
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: white;
+
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  color: white;
+}
+
+.nav-link {
+  color: #03071e;
+}
+
+.row {
+  flex-direction: row;
+
+}
 
 header {
     padding: 8px;
@@ -81,7 +116,7 @@ main {
   width: auto;
   border: 2px solid black;
   flex-wrap: wrap;
-  box-shadow: -10px 10px 8px #7f5af0;
+  box-shadow: -0px 0px 20px #da2f02;
   margin-left: 80px;
 }
 
