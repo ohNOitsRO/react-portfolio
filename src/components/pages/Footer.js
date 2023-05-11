@@ -8,12 +8,12 @@ const footerStyle = {
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    gap: '150px'
+    gap: '50px'
     }
 
 export default function Footer() {
   return (
-     <div style={footerStyle}>
+     <div style={footerStyle} className="form-group cover-container d-flex w-50 h-100 p-3 mx-auto">
         <a href="https://github.com/ohNOitsRO/"><img src={Github}
           id="contactImages"
           alt="Github Portfolio">
