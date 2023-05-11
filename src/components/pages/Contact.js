@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import { validateEmail } from '../../utils/helpers'
 
 function Contact() {
@@ -10,17 +10,15 @@ function Contact() {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(`Email: ${email}, Name: ${name}, Message: ${message}`);
-
-    if (event.target.name === 'email') {
+    if (event.target.value === 'email') {
       const isValid = validateEmail(event.target.value);
-
-    if (!isValid) {
-        setErrorMessage('Please input a valid email!');
-    } 
-    else {
+      if (!isValid) {
+        setErrorMessage('Please use a valid email!');
+      } else {
         setErrorMessage('');
+      }
     }
-    };
+  }
 
    return (
     <div className="form-group cover-container d-flex w-50 h-100 p-3 mx-auto flex-column">
@@ -60,11 +58,12 @@ function Contact() {
           </div>
       )}
 
-      <button type="submit" className="btn btn-dark">Send</button>
+
+    <button type="submit" className="btn btn-dark">Send</button>
     </form>
     </div>
   );
 
-}}
+}
 
 export default Contact;
