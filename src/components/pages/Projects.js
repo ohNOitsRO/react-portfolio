@@ -11,13 +11,13 @@ export default function Projects() {
     <div>
     <img src={NBAbetHub}
          alt="NBA betHub"
-         id="projectName1"
+         id="projectName"
          href="https://ohnoitsro.github.io/NBA-betHub/">
     </img></div>
     <div>
     <img src={FavSavs}
          alt="FavSavs"
-         id="projectName2"
+         id="projectName"
          href="https://fierce-everglades-98349.herokuapp.com/">
     </img></div>
     
@@ -25,7 +25,7 @@ export default function Projects() {
     <div>Project 3</div>
     <img src={QuestionBlock}
          alt="Work In Progress"
-         id="projectName3"
+         id="projectName"
          href="https://github.com/ohNOitsRO/">
     </img></div>
 
@@ -33,7 +33,7 @@ export default function Projects() {
      <div>Project 4</div>
     <img src={QuestionBlock}
          alt="Work In Progress"
-         id="projectName4"
+         id="projectName"
          href="https://github.com/ohNOitsRO/">
     </img></div>
     
@@ -41,7 +41,15 @@ export default function Projects() {
     <div>Project 5</div>
     <img src={QuestionBlock}
          alt="Work In Progress"
-         id="projectName5"
+         id="projectName"
+         href="https://github.com/ohNOitsRO/">
+    </img></div>
+
+    <div> 
+    <div>Project 6</div>
+    <img src={QuestionBlock}
+         alt="Work In Progress"
+         id="projectName"
          href="https://github.com/ohNOitsRO/">
     </img></div>
 

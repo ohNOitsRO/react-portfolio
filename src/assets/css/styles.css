@@ -145,7 +145,7 @@ main {
     align-items: center;
 }
 
-.projectName1, .projectName2, .projectName3, .projectName4, .projectName5 {
+.projectName {
     margin-top: 75px;
     font-size: 20px;
     display: inline-block;
