@@ -9,49 +9,56 @@ export default function Projects() {
     <section className="my-projects" id="projects">
     
     <div>
-    <img src={NBAbetHub}
-         alt="NBA betHub"
-         id="projectName"
-         href="https://ohnoitsro.github.io/NBA-betHub/">
-    </img></div>
+          <a href="https://ohnoitsro.github.io/NBA-betHub/">
+          <img src={NBAbetHub}
+               alt="NBA betHub"
+               id="projectName">
+    </img></a>
+    </div>
+
     <div>
-    <img src={FavSavs}
-         alt="FavSavs"
-         id="projectName"
-         href="https://fierce-everglades-98349.herokuapp.com/">
-    </img></div>
+          <a href="https://fierce-everglades-98349.herokuapp.com/">
+          <img src={FavSavs}
+               alt="FavSavs"
+               id="projectName">
+    </img></a>
+    </div>
     
     <div>
     <div>Project 3</div>
-    <img src={QuestionBlock}
-         alt="Work In Progress"
-         id="projectName"
-         href="https://github.com/ohNOitsRO/">
-    </img></div>
+          <a href="https://github.com/ohNOitsRO/">
+          <img src={QuestionBlock}
+               alt="Work In Progress"
+               id="projectName">
+    </img></a>
+    </div>
 
     <div>
-     <div>Project 4</div>
-    <img src={QuestionBlock}
-         alt="Work In Progress"
-         id="projectName"
-         href="https://github.com/ohNOitsRO/">
-    </img></div>
+    <div>Project 4</div>
+          <a href="https://github.com/ohNOitsRO/">
+          <img src={QuestionBlock}
+               alt="Work In Progress"
+               id="projectName">
+    </img></a>
+    </div>
     
     <div>
     <div>Project 5</div>
-    <img src={QuestionBlock}
-         alt="Work In Progress"
-         id="projectName"
-         href="https://github.com/ohNOitsRO/">
-    </img></div>
+          <a href="https://github.com/ohNOitsRO/">
+          <img src={QuestionBlock}
+               alt="Work In Progress"
+               id="projectName">
+    </img></a>
+    </div>
 
     <div> 
     <div>Project 6</div>
-    <img src={QuestionBlock}
-         alt="Work In Progress"
-         id="projectName"
-         href="https://github.com/ohNOitsRO/">
-    </img></div>
+          <a href="https://github.com/ohNOitsRO/">
+          <img src={QuestionBlock}
+               alt="Work In Progress"
+               id="projectName">
+    </img></a>
+    </div>
 
     </section>
   );
