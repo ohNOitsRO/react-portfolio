@@ -105,6 +105,10 @@ main {
   padding-top: 150px;
 }
 
+.card {
+  background-color: transparent;
+}
+
 .container-fluid {
     display: flex;
     justify-content: center;
