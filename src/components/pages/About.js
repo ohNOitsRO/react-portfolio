@@ -5,7 +5,6 @@ import ProfilePic from '../../assets/images/profilepic.jpg'
 export default function About() {
     return (
         
-        // <div className="cover-container d-flex h-100 p-3 mx-auto flex-column">
         <div className="container-fluid">
         <div className="container row">
         
@@ -20,12 +19,11 @@ export default function About() {
         <div className= "col-md-3">
             <div className= "card">
             <div className="card-body h-100">
-            <p className="lead">Miami based Fullstack web developer, 
-            fluent in HTML, CSS, JavaScript, mySQL, and MERN.    
-            100% Computer Geek certified, show binger, and lover of all sports. 
+            <p className="lead">Miami based Full-stack Web Developer.
+            Fluent in HTML, CSS, JavaScript, mySQL, and MERN.    
+            Show binger and lover of all sports. 
             Simple, efficient, and elegant designs. 
-            Proud student of the University of Miami Coding Bootcamp.
-            Keep up with me and all my current and upcoming projects here!
+            Proud graduate of the University of Miami Coding Bootcamp.
         </p>
         </div>
         </div>
