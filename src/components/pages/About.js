@@ -19,11 +19,14 @@ export default function About() {
         <div className= "col-md-3">
             <div className= "card">
             <div className="card-body h-100">
-            <p className="lead">Miami based Full-stack Web Developer.
-            Fluent in HTML, CSS, JavaScript, mySQL, and MERN.    
-            Show binger and lover of all sports. 
-            Simple, efficient, and elegant designs. 
-            Proud graduate of the University of Miami Coding Bootcamp.
+            <p className="lead">
+                <ul>
+                <li>Miami based Full-stack Web Developer.</li>
+                <li>Fluent in HTML, CSS, JavaScript, mySQL, and MERN.</li>
+                <li>Show binger and lover of all sports.</li>
+                <li>Simple, efficient, and elegant designs.</li>
+                <li>Proud graduate of the University of Miami Coding Bootcamp.</li>
+                </ul>
         </p>
         </div>
         </div>
