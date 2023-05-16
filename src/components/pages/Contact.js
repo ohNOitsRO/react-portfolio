@@ -9,24 +9,21 @@ function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(`Email: ${email}, Name: ${name}, Message: ${message}`);
-    console.log('event',event);
-    if (event.target.value === 'email') {
-      console.log("email");
-      const isValid = validateEmail(event.target.value);
-    if (!isValid) {
+    
+    const isValid = validateEmail(email);
+      if (!isValid) {
         setErrorMessage('Please use a valid email!');
       } 
-    else {
-        setErrorMessage('Revelio!');
+      else {
+        const mailtoLink = `mailto:fake.email@gmail.com?subject=${encodeURIComponent(name)}&body=${encodeURIComponent(message)}`;
+        window.location.href = mailtoLink;
+        setErrorMessage('');
       }
     }
 
-  }
-
-   return (
+  return (
     <div className="form-group cover-container d-flex w-50 h-100 p-3 mx-auto flex-column">
-    <form onSubmit={handleSubmit} action="mailto:youraddr@domain.tld" method="GET">
+    <form onSubmit={handleSubmit}>
       <label htmlFor="email">Email</label>
       <input
         type="email"
