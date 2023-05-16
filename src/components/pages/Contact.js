@@ -15,8 +15,8 @@ function Contact() {
         setErrorMessage('Please use a valid email!');
       } 
       else {
-        const mailtoLink = `mailto:fake.email@gmail.com?subject=${encodeURIComponent(name)}&body=${encodeURIComponent(message)}`;
-        window.location.href = mailtoLink;
+        const emailLink = `mailto:fake.email@gmail.com?subject=${encodeURIComponent(name)}&body=${encodeURIComponent(message)}`;
+        window.location.href = emailLink;
         setErrorMessage('');
       }
     }

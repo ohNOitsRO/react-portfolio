@@ -9,7 +9,7 @@ export default function Resume() {
       <div className="container row">
 
       <div className= "col-md-4">
-      <a href="" download>
+      <a href={process.env.PUBLIC_URL + "/shell-resume.pdf"} download>
       <img src={Resumedownload}
            alt="Roland's Resume"
            className="d-block mx-lg-auto img-fluid"></img></a>
