@@ -7,28 +7,28 @@ export default function Resume() {
       <>
       <div className="container-fluid">
       <div className="container row">
-      
-      <div className= "col-md-3"></div>
 
-      <div className= "col-md-3">
+      <div className= "col-md-4">
       <a href="" download>
       <img src={Resumedownload}
            alt="Roland's Resume"
            className="d-block mx-lg-auto img-fluid"></img></a>
       </div>
-      <div className= "col-md-3">
+      <div className= "col-md-4"></div>
+      <div className= "col-md-4">
           <div className= "card">
           <div className="card-body h-100">
-          <p className="lead">Technical Skills
-      
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>mySQL</li>
-          <li>MongoDB</li>
-          <li>Express</li>
-          <li>React</li>
-          <li>Node</li>   
+          <p className="lead">
+            <u>Technical Skills</u>
+
+            <li className="listspace">HTML</li>
+            <li className="listspace">CSS</li>
+            <li className="listspace">Javascript</li>
+            <li className="listspace">mySQL</li>
+            <li className="listspace">MongoDB</li>
+            <li className="listspace">Express</li>
+            <li className="listspace">React</li>
+            <li className="listspace">Node</li>   
           
       </p>
       </div>
@@ -36,8 +36,6 @@ export default function Resume() {
       </div>
       </div>
       </div>
-
-      <div className= "col-md-3"></div>
       </>
   );
 }

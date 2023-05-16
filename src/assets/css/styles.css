@@ -84,6 +84,12 @@ h3 {
   display: flex;
 
 }
+
+.listspace {
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
 /*  Header Helper Classes  */
 
 .top-links {
@@ -114,6 +120,7 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 /*  About Me Section  */
