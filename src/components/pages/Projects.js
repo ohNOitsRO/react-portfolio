@@ -6,6 +6,7 @@ import QuestionBlock from '../../assets/images/questionBlock.png'
 
 export default function Projects() {
   return (
+    <div className="container-fluid">
     <section className="my-projects" id="projects">
     
     <div>
@@ -61,5 +62,6 @@ export default function Projects() {
     </div>
 
     </section>
+    </div>
   );
 }
