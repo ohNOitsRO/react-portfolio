@@ -2,6 +2,7 @@ import React from 'react';
 import NBAbetHub from '../../assets/images/NBAbetHub.png'
 import FavSavs from '../../assets/images/FavSavs.png'
 import QuestionBlock from '../../assets/images/questionBlock.png'
+import Cliffhanger from '../../assets/images/cliffhanger.png'
 
 const cardStyle = { width: "18rem"
                   }
@@ -32,7 +33,7 @@ export default function Projects() {
       </div>
 
       <div className="card" style={cardStyle}>
-  <img src={QuestionBlock} className="card-img-top" alt="FavSavs"></img>
+  <img src={Cliffhanger} className="card-img-top" alt="FavSavs"></img>
   <div className="card-body">
     <h3 className="card-title"><u>Cliffhanger</u></h3>
     <p className="card-text">Create stories or continue others creations through collaborative storytelling!</p>
