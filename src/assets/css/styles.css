@@ -123,6 +123,14 @@ main {
     padding-bottom: 100px;
 }
 
+.um {
+  font-weight: 700;
+    background: -webkit-linear-gradient(#005030, #f47321);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+
 /*  About Me Section  */
 
 #about-me{

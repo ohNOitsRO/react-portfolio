@@ -14,7 +14,9 @@ export default function Resume() {
            alt="Roland's Resume"
            className="d-block mx-lg-auto img-fluid"></img></a>
       </div>
+
       <div className= "col-md-4"></div>
+      
       <div className= "col-md-4">
           <div className="card">
           <div className="card-body h-100">
@@ -26,18 +28,18 @@ export default function Resume() {
             <li className="listspace">CSS</li>
               Bootstrap, Materialize, for different page designs
             <li className="listspace">Javascript</li>
-            jQuery, RESTful API fetching for C.R.U.D, 
+            jQuery, RESTful API fetching for C.R.U.D
             <li className="listspace">mySQL</li>
             SQL Database Management
             <li className="listspace">MongoDB</li>
-            Mongoose for object models,
+            Mongoose for object models
             <li className="listspace">Express</li>
              Sequelize to connect front-end and back-end
             <li className="listspace">React</li>
             Router for built in page routes, MUI for front-end component designs
             <li className="listspace">Node</li>
-            Inquirer for CLI inputs, dotenv to hide credentials, bcrypt to hash credentials for further security, babel for easy ES5-to-ES6 integration, 
-            ESlint for more descriptive, stricter and customizable restrictions, Webpack for compressing and bundling applications, jest for testing code, 
+            Inquirer for CLI inputs, dotenv to hide credentials, bcrypt to hash user data for further security, babel for easy ES5-to-ES6 integration, 
+            ESlint for more descriptive, stricter and customizable restrictions, Webpack for compressing and bundling applications, jest for testing code
             <li className="listspace">Insomnia/GraphQL</li>
             Testing databases and routes
             </ul>
