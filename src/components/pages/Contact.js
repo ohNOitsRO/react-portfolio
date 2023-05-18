@@ -22,7 +22,7 @@ function Contact() {
     }
 
   return (
-    <div class ="container-fluid">
+    <div className="container-fluid">
     <div className="form-group cover-container d-flex w-50 h-100 p-3 mx-auto flex-column">
     <form onSubmit={handleSubmit}>
       <label htmlFor="email">Email</label>

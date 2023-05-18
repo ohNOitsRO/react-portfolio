@@ -124,7 +124,7 @@ main {
 }
 
 .um {
-  font-weight: 700;
+    font-weight: 700;
     background: -webkit-linear-gradient(#005030, #f47321);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -155,9 +155,8 @@ main {
 
 .my-projects{
     display: flex;
-    font-size: 26px;
+    font-size: 18px;
     text-align: center;
-    font-weight: bold;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
