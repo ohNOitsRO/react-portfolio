@@ -22,22 +22,21 @@ export default function Resume() {
             <u>Technical Skills</u>
             <ul>
             <li className="listspace">HTML</li>
-              Handlebars for templates
+              <strong>Handlebars</strong> for templates
             <li className="listspace">CSS</li>
-              Bootstrap, Materialize for different page designs
+              <strong>Bootstrap</strong>, <strong>Materialize</strong> for different page designs
             <li className="listspace">Javascript</li>
-              jQuery, RESTful API fetching for C.R.U.D
+              <strong>jQuery</strong>, <strong>RESTful API</strong> fetching for C.R.U.D
             <li className="listspace">mySQL</li>
-              SQL Database Management
+              <strong>SQL</strong> Database Management
             <li className="listspace">MongoDB</li>
-              Mongoose for object models
+              <strong>Mongoose</strong> for object models
             <li className="listspace">Express</li>
-              Sequelize to connect front-end and back-end
+              <strong>Sequelize</strong> to connect front-end and back-end
             <li className="listspace">React</li>
-              Router for built in page routes, MUI for front-end component designs
+              <strong>Router</strong> for built in page routes, <strong>MUI</strong> for front-end component designs
             <li className="listspace">Node</li>
-              Inquirer for CLI inputs, dotenv to hide credentials, bcrypt to hash user data for further security, babel for easy ES5-to-ES6 integration, 
-              ESlint for more descriptive, stricter and customizable restrictions, Webpack for compressing and bundling applications, jest for testing code
+              <strong>Inquirer</strong> for CLI inputs, <strong>dotenv</strong> to hide credentials, <strong>bcrypt</strong> to hash user data for further security, <strong>babel</strong> for easy ES5-to-ES6 integration, <strong>ESlint</strong> for more descriptive, stricter and customizable restrictions, <strong>Webpack</strong> for compressing and bundling applications, <strong>jest</strong> for testing code
             <li className="listspace">Insomnia/GraphQL</li>
               Testing databases and routes
             </ul>
