@@ -63,7 +63,7 @@ export default function Projects() {
       </div>
 
       <div className="card" style={cardStyle}>
-  <img src={WDScheduler} class="card-img-top" alt="FavSavs"></img>
+  <img src={WDScheduler} className="card-img-top" alt="FavSavs"></img>
   <div className="card-body">
     <h3 className="card-title"><u>Work Day Scheduler</u></h3>
     <p className="card-text">Keep track of your busy 9 to 5 workday!</p>
