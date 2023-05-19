@@ -3,6 +3,9 @@ import NBAbetHub from '../../assets/images/NBAbetHub.png'
 import FavSavs from '../../assets/images/FavSavs.png'
 import QuestionBlock from '../../assets/images/questionBlock.png'
 import Cliffhanger from '../../assets/images/cliffhanger.png'
+import WeatherDashboard from '../../assets/images/wd-logo.png'
+import JATE from '../../assets/images/jate-logo.jpg'
+import WDScheduler from '../../assets/images/scheduler.png'
 
 const cardStyle = { width: "18rem"
                   }
@@ -33,7 +36,7 @@ export default function Projects() {
       </div>
 
       <div className="card" style={cardStyle}>
-  <img src={Cliffhanger} className="card-img-top" alt="FavSavs"></img>
+  <img src={Cliffhanger} className="card-img-top" alt="Cliffhanger"></img>
   <div className="card-body">
     <h3 className="card-title"><u>Cliffhanger</u></h3>
     <p className="card-text">Create stories or continue others creations through collaborative storytelling!</p>
@@ -42,29 +45,29 @@ export default function Projects() {
       </div>
 
       <div className="card" style={cardStyle}>
-  <img src={QuestionBlock} className="card-img-top" alt="FavSavs"></img>
+  <img src={WeatherDashboard} className="card-img-top" alt="Weather Dashboard"></img>
   <div className="card-body">
-    <h3 className="card-title"><u>Project 4</u></h3>
-    <p className="card-text">Coming Soon!</p>
-    <a href="https://github.com/ohNOitsRO" className="btn btn-dark">Visit Page</a>
+    <h3 className="card-title"><u>Weather Dashboard</u></h3>
+    <p className="card-text">Look up the 5 day forecast for any city in North America!</p>
+    <a href="https://ohnoitsro.github.io/weather-dashboard/" className="btn btn-dark">Visit Page</a>
   </div>
       </div>
 
       <div className="card" style={cardStyle}>
-  <img src={QuestionBlock} className="card-img-top" alt="FavSavs"></img>
+  <img src={JATE} className="card-img-top" alt="J.A.T.E"></img>
   <div className="card-body">
-    <h3 className="card-title"><u>Project 5</u></h3>
-    <p className="card-text">Coming Soon!</p>
-    <a href="https://github.com/ohNOitsRO" className="btn btn-dark">Visit Page</a>
+    <h3 className="card-title"><u>J.A.T.E</u></h3>
+    <p className="card-text">Just Another Text Editor - Keep track of your notes!</p>
+    <a href="https://jate-rd.herokuapp.com/" className="btn btn-dark">Visit Page</a>
   </div>
       </div>
 
       <div className="card" style={cardStyle}>
-  <img src={QuestionBlock} class="card-img-top" alt="FavSavs"></img>
+  <img src={WDScheduler} class="card-img-top" alt="FavSavs"></img>
   <div className="card-body">
-    <h3 className="card-title"><u>Project 6</u></h3>
-    <p className="card-text">Coming Soon!</p>
-    <a href="https://github.com/ohNOitsRO" className="btn btn-dark">Visit Page</a>
+    <h3 className="card-title"><u>Work Day Scheduler</u></h3>
+    <p className="card-text">Keep track of your busy 9 to 5 workday!</p>
+    <a href="https://ohnoitsro.github.io/work-day-scheduler/" className="btn btn-dark">Visit Page</a>
   </div>
       </div>
 
