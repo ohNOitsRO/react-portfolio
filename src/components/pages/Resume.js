@@ -24,22 +24,22 @@ export default function Resume() {
             <li className="listspace">HTML</li>
               Handlebars for templates
             <li className="listspace">CSS</li>
-              Bootstrap, Materialize, for different page designs
+              Bootstrap, Materialize for different page designs
             <li className="listspace">Javascript</li>
-            jQuery, RESTful API fetching for C.R.U.D
+              jQuery, RESTful API fetching for C.R.U.D
             <li className="listspace">mySQL</li>
-            SQL Database Management
+              SQL Database Management
             <li className="listspace">MongoDB</li>
-            Mongoose for object models
+              Mongoose for object models
             <li className="listspace">Express</li>
-             Sequelize to connect front-end and back-end
+              Sequelize to connect front-end and back-end
             <li className="listspace">React</li>
-            Router for built in page routes, MUI for front-end component designs
+              Router for built in page routes, MUI for front-end component designs
             <li className="listspace">Node</li>
-            Inquirer for CLI inputs, dotenv to hide credentials, bcrypt to hash user data for further security, babel for easy ES5-to-ES6 integration, 
-            ESlint for more descriptive, stricter and customizable restrictions, Webpack for compressing and bundling applications, jest for testing code
+              Inquirer for CLI inputs, dotenv to hide credentials, bcrypt to hash user data for further security, babel for easy ES5-to-ES6 integration, 
+              ESlint for more descriptive, stricter and customizable restrictions, Webpack for compressing and bundling applications, jest for testing code
             <li className="listspace">Insomnia/GraphQL</li>
-            Testing databases and routes
+              Testing databases and routes
             </ul>
       </div>
       </div>
