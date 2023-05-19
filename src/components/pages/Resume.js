@@ -14,10 +14,8 @@ export default function Resume() {
            alt="Roland's Resume"
            className="d-block mx-lg-auto img-fluid"></img></a>
       </div>
-
-      <div className= "col-md-4"></div>
       
-      <div className= "col-md-4">
+      <div className= "col-md-8">
           <div className="card">
           <div className="card-body h-100">
           <div className="lead">
