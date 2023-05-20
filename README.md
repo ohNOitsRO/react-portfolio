@@ -1,14 +1,14 @@
-# J.A.T.E - Just Another Text Editor (Module 20 Challenge)
+# React Portfolio (Module 20 Challenge)
 
 ## Description
 
-My React Portfolio showcasing 6 of my projects with a downloadble Resume and a quick bio about me.  
+My React Portfolio showcasing 6 of my projects with a downloadable Resume and a quick bio about me.  
 Also includes a contact form to send me a message!
 
 ## Table of Contents
 
 - [Installation](#installation)
-
+- [Link](#link-to-deployed-application)
 - [Credits](#credits)
 - [License](#license)
 
@@ -22,7 +22,7 @@ Run "npm run develop" to automatically launch the default web browser and open t
 
 ### Link to deployed application
 
-https://github.com/ohNOitsRO
+https://ohnoitsro.github.io/react-portfolio/
 
 ## Credits
 
