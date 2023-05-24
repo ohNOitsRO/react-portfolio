@@ -1,9 +1,11 @@
 import React from 'react';
 
+// Styles for header
 const headerStyle = { listStyle: "none",
                       display: "flex"
                     }
 
+// Render header for every page
 function Header({ currentPage, handlePageChange }) {
   return (
     

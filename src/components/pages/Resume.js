@@ -1,7 +1,7 @@
 import React from 'react';
 import ResumeDL from '../../assets/images/resume-download.png';
 
-
+// Renders entire Resume page
 export default function Resume() {
   return (
       <>

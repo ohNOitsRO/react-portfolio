@@ -1,6 +1,7 @@
 import React from 'react';
 import ProfilePic from '../../assets/images/profilepic.jpg'
 
+// Renders entire About Me page
 export default function About() {
     return (
         <div className="container-fluid">

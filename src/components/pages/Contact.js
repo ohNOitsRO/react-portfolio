@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { validateEmail } from '../../utils/helpers'
 
+// Renders entire Contact page and form to send an e-mail
 function Contact() {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
@@ -15,7 +16,7 @@ function Contact() {
         setErrorMessage('Please use a valid email!');
       } 
       else {
-        const emailLink = `mailto:fake.email@gmail.com?subject=${encodeURIComponent(name)}&body=${encodeURIComponent(message)}`;
+        const emailLink = `mailto:archangelhavok@gmail.com?subject=${encodeURIComponent(name)}&body=${encodeURIComponent(message)}`;
         window.location.href = emailLink;
         setErrorMessage('');
       }

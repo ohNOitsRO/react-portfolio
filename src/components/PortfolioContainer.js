@@ -6,7 +6,8 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './pages/Footer';
 
-
+// Switches and renders between the page components accordingly
+// and renders main container that holds all components for a fully functional page
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
@@ -37,5 +38,4 @@ export default function PortfolioContainer() {
     </div>
   );
   
-
 }
