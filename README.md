@@ -24,6 +24,10 @@ Run "npm run develop" to automatically launch the default web browser and open t
 
 https://ohnoitsro.github.io/react-portfolio/
 
+
+![Sample Website Preview](./src/assets/images/portfolio-screenshot.PNG)
+
+
 ## Credits
 
 Node.js for its CLI capabilities.  
