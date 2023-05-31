@@ -21,7 +21,7 @@ export default function Footer() {
           alt="Github Portfolio">
         </img></a>
             
-        <a href="mailto:archangelhavok@gmail.com"><img src={Email}
+        <a href="mailto:webdevrodel@gmail.com"><img src={Email}
           id="contactImages"
           alt="My Email">
         </img></a>

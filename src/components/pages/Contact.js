@@ -16,7 +16,7 @@ function Contact() {
         setErrorMessage('Please use a valid email!');
       } 
       else {
-        const emailLink = `mailto:archangelhavok@gmail.com?subject=${encodeURIComponent(name)}&body=${encodeURIComponent(message)}`;
+        const emailLink = `mailto:webdevrodel@gmail.com?subject=${encodeURIComponent(name)}&body=${encodeURIComponent(message)}`;
         window.location.href = emailLink;
         setErrorMessage('');
       }
