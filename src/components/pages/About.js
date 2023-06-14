@@ -31,6 +31,24 @@ export default function About() {
         </div>
 
         </div>
+
+        <main className="pactainer">
+  <div className="pacman">
+	
+  </div>
+  <div className="path opaque"></div>
+  <div className="path"></div>
+  <div className="path"></div>
+  <div className="path"></div>
+  <div className="path"></div>
+  <div className="path"></div>
+  <div className="path"></div>
+  <div className="path"></div>
+</main>
+
+
+
+
         </div>
             
             
