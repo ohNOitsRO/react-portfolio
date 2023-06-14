@@ -194,6 +194,11 @@ footer {
 
 }
 
+#contactImages:hover {
+  transform: scale(1.5);
+  transition-duration: 0.5s;
+}
+
 
 /* Pacman Animation */
 
