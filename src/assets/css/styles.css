@@ -170,8 +170,8 @@ main {
     color: #fffffe;
 }
 
-.workInProgress{
-    height: 300px; 
+.pointer:hover{
+    cursor: pointer; 
 }
 
 /*  Footer  */

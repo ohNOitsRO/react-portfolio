@@ -12,7 +12,7 @@ export default function Resume() {
       <a href={process.env.PUBLIC_URL + "/RD_Resume.docx"} download>
       <img src={ResumeDL}
            alt="Roland's Resume"
-           className="d-block mx-lg-auto img-fluid"></img></a>
+           className="d-block mx-lg-auto img-fluid pointer"></img></a>
       </div>
       
       <div className= "col-md-8">
