@@ -40,7 +40,7 @@ export default function Resume() {
           <div className="lead">
             <u>Technical Skills</u>
             
-
+          <div className="row justify-content-center">
           <img src={Bootstraplogo}
            alt="Bootstrap Logo"
            className="d-block mx-lg-auto img-fluid"
@@ -65,7 +65,9 @@ export default function Resume() {
            alt="Handlebars Logo"
            className="d-block mx-lg-auto img-fluid"
            style={thumbNail}></img>
+          </div>
 
+          <div className="row justify-content-center">
           <img src={HTML5logo}
            alt="HTML5 Logo"
            className="d-block mx-lg-auto img-fluid"
@@ -90,7 +92,9 @@ export default function Resume() {
            alt="MongoDB Logo"
            className="d-block mx-lg-auto img-fluid"
            style={thumbNail}></img>
+          </div>
 
+          <div className="row justify-content-center">
           <img src={MUIlogo}
            alt="MUI Logo"
            className="d-block mx-lg-auto img-fluid"
@@ -115,6 +119,7 @@ export default function Resume() {
            alt="Sequelize Logo"
            className="d-block mx-lg-auto img-fluid"
            style={thumbNail}></img>
+          </div>
             
             
       </div>
