@@ -1,5 +1,24 @@
 import React from 'react';
 import ResumeDL from '../../assets/images/resume-download.png';
+import Bootstraplogo from '../../assets/images/bootstrap.png';
+import CSS3logo from '../../assets/images/css3.png';
+import Expresslogo from '../../assets/images/express.png';
+import GraphQLlogo from '../../assets/images/graphql.png';
+import Handlebarslogo from '../../assets/images/handlebars.png';
+import HTML5logo from '../../assets/images/html5.png';
+import JQuerylogo from '../../assets/images/jquery.png';
+import JSlogo from '../../assets/images/js.png';
+import Materializelogo from '../../assets/images/materialize.png';
+import Mongodblogo from '../../assets/images/mongodb.png';
+import MUIlogo from '../../assets/images/mui.png';
+import mySQLlogo from '../../assets/images/mysql.png';
+import Nodelogo from '../../assets/images/node.png';
+import Reactlogo from '../../assets/images/react.png';
+import Sequelizelogo from '../../assets/images/sequelize.png';
+
+const thumbNail = {
+                  width: "15%"
+                  }
 
 // Renders entire Resume page
 export default function Resume() {
@@ -21,8 +40,12 @@ export default function Resume() {
           <div className="lead">
             <u>Technical Skills</u>
             <ul>
-            <li className="listspace">HTML</li>
-              <strong>Handlebars</strong> for templates
+
+            <img src={ResumeDL}
+           alt="Roland's Resume"
+           className="d-block mx-lg-auto img-fluid"
+           style={thumbNail}></img>
+
             <li className="listspace">CSS</li>
               <strong>Bootstrap</strong>, <strong>Materialize</strong> for different page designs
             <li className="listspace">Javascript</li>
