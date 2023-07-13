@@ -131,6 +131,13 @@ main {
   
 }
 
+.font {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+
+}
+
 /*  About Me Section  */
 
 #about-me{

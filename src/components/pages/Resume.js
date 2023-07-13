@@ -16,9 +16,9 @@ import Nodelogo from '../../assets/images/node.png';
 import Reactlogo from '../../assets/images/react.png';
 import Sequelizelogo from '../../assets/images/sequelize.png';
 
-const thumbNail = {
-                  width: "15%"
-                  }
+// const flexLogos = {
+//           display: "flex"
+//                   }
 
 // Renders entire Resume page
 export default function Resume() {
@@ -37,88 +37,73 @@ export default function Resume() {
       <div className= "col-md-8">
           <div className="card">
           <div className="card-body h-100">
-          <div className="lead">
-            <u>Technical Skills</u>
+          <center className="font"><u>Technical Skills</u></center>
+          <div className="lead row">
             
-          <div className="row justify-content-center">
+          <div className="row justify-content-center w-25">
           <img src={Bootstraplogo}
            alt="Bootstrap Logo"
-           className="d-block mx-lg-auto img-fluid"
-           style={thumbNail}></img>
+           className="d-block mx-lg-auto img-fluid"></img>
 
           <img src={CSS3logo}
            alt="CSS3 Logo"
-           className="d-block mx-lg-auto img-fluid"
-           style={thumbNail}></img>
+           className="d-block mx-lg-auto img-fluid"></img>
 
           <img src={Expresslogo}
            alt="Express Logo"
-           className="d-block mx-lg-auto img-fluid"
-           style={thumbNail}></img>
+           className="d-block mx-lg-auto img-fluid"></img>
 
           <img src={GraphQLlogo}
            alt="GraphQL Logo"
-           className="d-block mx-lg-auto img-fluid"
-           style={thumbNail}></img>
+           className="d-block mx-lg-auto img-fluid"></img>
 
           <img src={Handlebarslogo}
            alt="Handlebars Logo"
-           className="d-block mx-lg-auto img-fluid"
-           style={thumbNail}></img>
+           className="d-block mx-lg-auto img-fluid"></img>
           </div>
 
-          <div className="row justify-content-center">
+          <div className="row justify-content-center w-25">
           <img src={HTML5logo}
            alt="HTML5 Logo"
-           className="d-block mx-lg-auto img-fluid"
-           style={thumbNail}></img>
+           className="d-block mx-lg-auto img-fluid"></img>
 
           <img src={JQuerylogo}
            alt="JQuery Logo"
-           className="d-block mx-lg-auto img-fluid"
-           style={thumbNail}></img>
+           className="d-block mx-lg-auto img-fluid"></img>
 
           <img src={JSlogo}
            alt="Javascript Logo"
-           className="d-block mx-lg-auto img-fluid"
-           style={thumbNail}></img>
+           className="d-block mx-lg-auto img-fluid"></img>
 
           <img src={Materializelogo}
            alt="Materialize Logo"
-           className="d-block mx-lg-auto img-fluid"
-           style={thumbNail}></img>
+           className="d-block mx-lg-auto img-fluid"></img>
 
           <img src={Mongodblogo}
            alt="MongoDB Logo"
-           className="d-block mx-lg-auto img-fluid"
-           style={thumbNail}></img>
+           className="d-block mx-lg-auto img-fluid"></img>
           </div>
 
-          <div className="row justify-content-center">
+          <div className="row justify-content-center w-25">
           <img src={MUIlogo}
            alt="MUI Logo"
-           className="d-block mx-lg-auto img-fluid"
-           style={thumbNail}></img>
+           className="d-block mx-lg-auto img-fluid"></img>
 
           <img src={mySQLlogo}
            alt="mySQL Logo"
-           className="d-block mx-lg-auto img-fluid"
-           style={thumbNail}></img>
+           className="d-block mx-lg-auto img-fluid"></img>
 
           <img src={Nodelogo}
            alt="Node Logo"
-           className="d-block mx-lg-auto img-fluid"
-           style={thumbNail}></img>
+           className="d-block mx-lg-auto img-fluid"></img>
 
           <img src={Reactlogo}
            alt="React Logo"
-           className="d-block mx-lg-auto img-fluid"
-           style={thumbNail}></img>
+           className="d-block mx-lg-auto img-fluid"></img>
 
           <img src={Sequelizelogo}
            alt="Sequelize Logo"
-           className="d-block mx-lg-auto img-fluid"
-           style={thumbNail}></img>
+           className="d-block mx-lg-auto img-fluid"></img>
           </div>
             
             
