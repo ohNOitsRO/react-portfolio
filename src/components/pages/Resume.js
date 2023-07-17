@@ -43,7 +43,7 @@ export default function Resume() {
   <div className="card">
     <div className="card-body h-100">
       <center className="font"><u>Technical Skills</u></center>
-      <div className="lead row">
+      <div className="lead row justify-content-center">
         <div className="row justify-content-center align-items-center">
           <div className="col-2">
             <img src={HTML5white} alt="HTML5 Logo" className="d-block mx-auto img-fluid"></img>
