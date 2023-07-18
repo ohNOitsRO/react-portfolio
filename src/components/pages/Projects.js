@@ -6,7 +6,7 @@ import Cliffhanger from '../../assets/images/cliffhanger.png'
 import WeatherDashboard from '../../assets/images/wd-logo.png'
 import JATE from '../../assets/images/jate-logo.jpg'
 import WDScheduler from '../../assets/images/scheduler.png'
-import Githubicon from '../../assets/images/githubIcon.jpg'
+import Githubicon from '../../assets/images/github_icon_small.png'
 
 // Array to keep projects organized and render information to card
 const cardData = [
