@@ -1,5 +1,6 @@
 import React from 'react';
 import ResumeDL from '../../assets/images/resume-download.png';
+import Fullstackbadge from '../../assets/images/fullstackbadge.png';
 import Bootstraplogo from '../../assets/images/bootstrap.png';
 import CSS3logo from '../../assets/images/css3.png';
 import Expresslogo from '../../assets/images/express.png';
@@ -15,10 +16,6 @@ import mySQLlogo from '../../assets/images/mysql.png';
 import Nodelogo from '../../assets/images/node.png';
 import Reactlogo from '../../assets/images/react.png';
 import Sequelizelogo from '../../assets/images/sequelize.png';
-import CSS3white from '../../assets/images/css3white.png';
-import HTML5white from '../../assets/images/html5white.png';
-import JSwhite from '../../assets/images/jswhite.png';
-import Expresswhite from '../../assets/images/expresswhite.png';
 
 // const flexLogos = {
 //           display: "flex"
@@ -33,9 +30,10 @@ export default function Resume() {
 
       <div className= "col-md-4">
       <a href={process.env.PUBLIC_URL + "/RD_Resume.docx"} download>
-      <img src={ResumeDL}
+      <img src={Fullstackbadge}
            alt="Roland's Resume"
            className="d-block mx-lg-auto img-fluid"></img></a>
+           <center>Click the badge to download my Resume!</center>
       </div>
 
 
@@ -46,13 +44,13 @@ export default function Resume() {
       <div className="lead row justify-content-center">
         <div className="row justify-content-center align-items-center">
           <div className="col-2">
-            <img src={HTML5white} alt="HTML5 Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
+            <img src={HTML5logo} alt="HTML5 Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
           <div className="col-2">
-            <img src={CSS3white} alt="CSS3 Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
+            <img src={CSS3logo} alt="CSS3 Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
           <div className="col-2">
-            <img src={JSwhite} alt="Javascript Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
+            <img src={JSlogo} alt="Javascript Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
           <div className="col-2">
             <img src={JQuerylogo} alt="JQuery Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
@@ -67,7 +65,7 @@ export default function Resume() {
             <img src={Mongodblogo} alt="MongoDB Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
           <div className="col-2">
-            <img src={Expresswhite} alt="Express Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
+            <img src={Expresslogo} alt="Express Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
           <div className="col-2">
             <img src={Reactlogo} alt="React Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
