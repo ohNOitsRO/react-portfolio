@@ -6,6 +6,7 @@ import Cliffhanger from '../../assets/images/cliffhanger.png'
 import WeatherDashboard from '../../assets/images/wd-logo.png'
 import JATE from '../../assets/images/jate-logo.jpg'
 import WDScheduler from '../../assets/images/scheduler.png'
+import Githubicon from '../../assets/images/githubIcon.jpg'
 
 // Array to keep projects organized and render information to card
 const cardData = [
@@ -64,6 +65,11 @@ const cardStyle = {
                   width: "18rem"
                   }
 
+const buttonStyle = {
+                    maxWidth: "100%",
+                    maxHeight: "100%"               
+                    }
+
 
 // Card component to render multiple projects
 const Card = ({ title, imageSrc, altText, description, link, github }) => (
@@ -79,7 +85,7 @@ const Card = ({ title, imageSrc, altText, description, link, github }) => (
         Visit Page
       </a>
       <a href={github} className="btn btn-dark">
-        Github
+        <img src={Githubicon} style={buttonStyle}></img>
       </a>
       </div>
     </div>
