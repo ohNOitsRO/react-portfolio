@@ -46,55 +46,55 @@ export default function Resume() {
       <div className="lead row justify-content-center">
         <div className="row justify-content-center align-items-center">
           <div className="col-2">
-            <img src={HTML5white} alt="HTML5 Logo" className="d-block mx-auto img-fluid"></img>
+            <img src={HTML5white} alt="HTML5 Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
           <div className="col-2">
-            <img src={CSS3white} alt="CSS3 Logo" className="d-block mx-auto img-fluid"></img>
+            <img src={CSS3white} alt="CSS3 Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
           <div className="col-2">
-            <img src={JSwhite} alt="Javascript Logo" className="d-block mx-auto img-fluid"></img>
+            <img src={JSwhite} alt="Javascript Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
           <div className="col-2">
-            <img src={JQuerylogo} alt="JQuery Logo" className="d-block mx-auto img-fluid"></img>
+            <img src={JQuerylogo} alt="JQuery Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
           <div className="col-2">
-            <img src={Handlebarslogo} alt="Handlebars Logo" className="d-block mx-auto img-fluid"></img>
-          </div>
-        </div>
-
-        <div className="row justify-content-center align-items-center">
-          <div className="col-2">
-            <img src={Mongodblogo} alt="MongoDB Logo" className="d-block mx-auto img-fluid"></img>
-          </div>
-          <div className="col-2">
-            <img src={Expresswhite} alt="Express Logo" className="d-block mx-auto img-fluid"></img>
-          </div>
-          <div className="col-2">
-            <img src={Reactlogo} alt="React Logo" className="d-block mx-auto img-fluid"></img>
-          </div>
-          <div className="col-2">
-            <img src={Nodelogo} alt="Node Logo" className="d-block mx-auto img-fluid"></img>
-          </div>
-          <div className="col-2">
-            <img src={mySQLlogo} alt="mySQL Logo" className="d-block mx-auto img-fluid"></img>
+            <img src={Handlebarslogo} alt="Handlebars Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
         </div>
 
         <div className="row justify-content-center align-items-center">
           <div className="col-2">
-            <img src={Bootstraplogo} alt="Bootstrap Logo" className="d-block mx-auto img-fluid"></img>
+            <img src={Mongodblogo} alt="MongoDB Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
           <div className="col-2">
-            <img src={Materializelogo} alt="Materialize Logo" className="d-block mx-auto img-fluid"></img>
+            <img src={Expresswhite} alt="Express Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
           <div className="col-2">
-            <img src={MUIlogo} alt="MUI Logo" className="d-block mx-auto img-fluid"></img>
+            <img src={Reactlogo} alt="React Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
           <div className="col-2">
-            <img src={Sequelizelogo} alt="Sequelize Logo" className="d-block mx-auto img-fluid"></img>
+            <img src={Nodelogo} alt="Node Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
           <div className="col-2">
-            <img src={GraphQLlogo} alt="GraphQL Logo" className="d-block mx-auto img-fluid"></img>
+            <img src={mySQLlogo} alt="mySQL Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
+          </div>
+        </div>
+
+        <div className="row justify-content-center align-items-center">
+          <div className="col-2">
+            <img src={Bootstraplogo} alt="Bootstrap Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
+          </div>
+          <div className="col-2">
+            <img src={Materializelogo} alt="Materialize Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
+          </div>
+          <div className="col-2">
+            <img src={MUIlogo} alt="MUI Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
+          </div>
+          <div className="col-2">
+            <img src={Sequelizelogo} alt="Sequelize Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
+          </div>
+          <div className="col-2">
+            <img src={GraphQLlogo} alt="GraphQL Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
         </div>
       </div>

@@ -15,6 +15,7 @@ const cardData = [
     altText: "NBA betHub",
     description: "Keep up with your favorite NBA teams and place quick bets!",
     link: "https://ohnoitsro.github.io/NBA-betHub/",
+    github: "https://github.com/ohNOitsRO/NBA-betHub"
   },
   {
     title: "FavSavs",
@@ -22,6 +23,7 @@ const cardData = [
     altText: "FavSavs",
     description: "Store and callback topics to explore at your convenience!",
     link: "https://fierce-everglades-98349.herokuapp.com/",
+    github: "https://github.com/ohNOitsRO/Fav-Savs"
   },
   {
     title: "Cliffhanger",
@@ -29,6 +31,7 @@ const cardData = [
     altText: "Cliffhanger",
     description: "Create stories or continue others creations through collaborative storytelling!",
     link: "https://github.com/ohNOitsRO",
+    github: "https://github.com/ohNOitsRO/CliffhangerStory"
   },
   {
     title: "Weather Dashboard",
@@ -36,6 +39,7 @@ const cardData = [
     altText: "Weather Dashboard",
     description: "Look up the 5 day forecast for any city in North America!",
     link: "https://ohnoitsro.github.io/weather-dashboard/",
+    github: "https://github.com/ohNOitsRO/weather-dashboard"
   },
   {
     title: "J.A.T.E",
@@ -43,6 +47,7 @@ const cardData = [
     altText: "J.A.T.E",
     description: "Just Another Text Editor - Keep track of your notes!",
     link: "https://jate-rd.herokuapp.com/",
+    github: "https://github.com/ohNOitsRO/just-another-text-editor"
   },
   {
     title: "Workday Scheduler",
@@ -50,6 +55,7 @@ const cardData = [
     altText: "Workday Scheduler",
     description: "Keep track of your busy 9 to 5 workday!",
     link: "https://ohnoitsro.github.io/work-day-scheduler/",
+    github: "https://github.com/ohNOitsRO/work-day-scheduler"
   }
 ];
 
@@ -60,7 +66,7 @@ const cardStyle = {
 
 
 // Card component to render multiple projects
-const Card = ({ title, imageSrc, altText, description, link }) => (
+const Card = ({ title, imageSrc, altText, description, link, github }) => (
   <div className="card" style={cardStyle}>
     <img src={imageSrc} className="card-img-top" alt={altText} />
     <div className="card-body">
@@ -68,9 +74,14 @@ const Card = ({ title, imageSrc, altText, description, link }) => (
         <u>{title}</u>
       </h3>
       <p className="card-text">{description}</p>
+      <div className="buttonlinks">
       <a href={link} className="btn btn-dark">
         Visit Page
       </a>
+      <a href={github} className="btn btn-dark">
+        Github
+      </a>
+      </div>
     </div>
   </div>
 );
