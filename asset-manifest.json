@@ -1,25 +1,39 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.e1543fb4.css",
-    "main.js": "/react-portfolio/static/js/main.94e8c873.js",
+    "main.css": "/react-portfolio/static/css/main.2228c7d6.css",
+    "main.js": "/react-portfolio/static/js/main.241fc581.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/jate-logo.jpg": "/react-portfolio/static/media/jate-logo.747b7249bba7f4e40d5e.jpg",
+    "static/media/mongodb.png": "/react-portfolio/static/media/mongodb.6170bacefd8a1f69ca74.png",
+    "static/media/jquery.png": "/react-portfolio/static/media/jquery.6bedb2d755f28eb0a2cb.png",
+    "static/media/react.png": "/react-portfolio/static/media/react.2f2532db663fd5ec5f95.png",
     "static/media/profilepic.jpg": "/react-portfolio/static/media/profilepic.ee31056bf74c1f2e97ea.jpg",
+    "static/media/sequelize.png": "/react-portfolio/static/media/sequelize.bf020b1cc786f45eba17.png",
     "static/media/cliffhanger.png": "/react-portfolio/static/media/cliffhanger.226df2ab201b067e5c23.png",
+    "static/media/bootstrap.png": "/react-portfolio/static/media/bootstrap.cb0fcc269e8250f3551b.png",
     "static/media/resume-download.png": "/react-portfolio/static/media/resume-download.6f36121007750ca0ccae.png",
+    "static/media/css3.png": "/react-portfolio/static/media/css3.1785bf486137cb4bfeaf.png",
+    "static/media/html5.png": "/react-portfolio/static/media/html5.a54f5f500c422a555d6f.png",
     "static/media/wd-logo.png": "/react-portfolio/static/media/wd-logo.850d3e9edb0dd8e22441.png",
+    "static/media/fullstackbadge.png": "/react-portfolio/static/media/fullstackbadge.c67026b67f65afdc22e7.png",
+    "static/media/express.png": "/react-portfolio/static/media/express.29435c6f27d6597e3794.png",
     "static/media/Linkedin.png": "/react-portfolio/static/media/Linkedin.9ed54f78848ecf9f9eb6.png",
     "static/media/envelope.png": "/react-portfolio/static/media/envelope.1276c3b6d9b7df21a1bb.png",
     "static/media/NBAbetHub.png": "/react-portfolio/static/media/NBAbetHub.bb7c4ecd3fa4c34edc7c.png",
+    "static/media/js.png": "/react-portfolio/static/media/js.96cd9deddcda32654efb.png",
+    "static/media/handlebars.png": "/react-portfolio/static/media/handlebars.a0ec0ec8ad9fa26f3478.png",
+    "static/media/graphql.png": "/react-portfolio/static/media/graphql.a15541c4a586474ab763.png",
     "static/media/FavSavs.png": "/react-portfolio/static/media/FavSavs.308c6ccb3a99aa75e03f.png",
     "static/media/scheduler.png": "/react-portfolio/static/media/scheduler.d90a1e99527cd6acbd7f.png",
+    "static/media/materialize.png": "/react-portfolio/static/media/materialize.443681980d833fe28281.png",
+    "static/media/node.png": "/react-portfolio/static/media/node.c580880cda32187e07e1.png",
     "index.html": "/react-portfolio/index.html",
-    "main.e1543fb4.css.map": "/react-portfolio/static/css/main.e1543fb4.css.map",
-    "main.94e8c873.js.map": "/react-portfolio/static/js/main.94e8c873.js.map",
+    "main.2228c7d6.css.map": "/react-portfolio/static/css/main.2228c7d6.css.map",
+    "main.241fc581.js.map": "/react-portfolio/static/js/main.241fc581.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1543fb4.css",
-    "static/js/main.94e8c873.js"
+    "static/css/main.2228c7d6.css",
+    "static/js/main.241fc581.js"
   ]
 }
