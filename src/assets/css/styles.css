@@ -183,6 +183,13 @@ main {
 
 }
 
+.badgecenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
 /*  Footer  */
 
 footer {
