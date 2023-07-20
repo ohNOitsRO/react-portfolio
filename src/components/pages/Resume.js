@@ -1,5 +1,4 @@
 import React from 'react';
-import ResumeDL from '../../assets/images/resume-download.png';
 import Fullstackbadge from '../../assets/images/fullstackbadge.png';
 import Bootstraplogo from '../../assets/images/bootstrap.png';
 import CSS3logo from '../../assets/images/css3.png';
@@ -17,9 +16,6 @@ import Nodelogo from '../../assets/images/node.png';
 import Reactlogo from '../../assets/images/react.png';
 import Sequelizelogo from '../../assets/images/sequelize.png';
 
-// const flexLogos = {
-//           display: "flex"
-//                   }
 
 // Renders entire Resume page
 export default function Resume() {
@@ -29,7 +25,7 @@ export default function Resume() {
       <div className="container row">
 
       <div className= "col-md-4">
-      <a href={process.env.PUBLIC_URL + "/RD_Resume.docx"} download>
+      <a href={process.env.PUBLIC_URL + "/RD_Resume.pdf"} download>
       <img src={Fullstackbadge}
            alt="Roland's Resume"
            className="d-block mx-lg-auto img-fluid"></img></a>
