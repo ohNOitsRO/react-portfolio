@@ -4,7 +4,7 @@ import FavSavs from '../../assets/images/FavSavs.png'
 import QuestionBlock from '../../assets/images/questionBlock.png'
 import Cliffhanger from '../../assets/images/cliffhanger.png'
 import WeatherDashboard from '../../assets/images/wd-logo.png'
-import JATE from '../../assets/images/jate-logo.jpg'
+import JATE from '../../assets/images/jate-logo.png'
 import WDScheduler from '../../assets/images/scheduler.png'
 import Githubicon from '../../assets/images/github_icon.png'
 
@@ -30,7 +30,7 @@ const cardData = [
     title: "Cliffhanger",
     imageSrc: Cliffhanger,
     altText: "Cliffhanger",
-    description: "Create stories or continue others creations through collaborative storytelling!",
+    description: "Create/continue stories through collaborative storytelling!",
     link: "https://github.com/ohNOitsRO",
     github: "https://github.com/ohNOitsRO/CliffhangerStory"
   },
