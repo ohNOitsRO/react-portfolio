@@ -26,7 +26,7 @@ function Contact() {
     <div className="container-fluid">
     <div className="form-group cover-container d-flex w-50 h-100 p-3 mx-auto flex-column">
     <form onSubmit={handleSubmit}>
-      <label htmlFor="email">Email</label>
+      <label htmlFor="email">Email:</label>
       <input
         type="email"
         id="email"
@@ -36,7 +36,7 @@ function Contact() {
         required
       />
 
-      <label htmlFor="name">Name</label>
+      <label htmlFor="name">Name:</label>
       <input
         type="text"
         id="name"
@@ -46,7 +46,7 @@ function Contact() {
         required
       />
 
-      <label htmlFor="message">Message</label>
+      <label htmlFor="message">Message:</label>
       <textarea
         id="message"
         className="form-control"
@@ -60,9 +60,10 @@ function Contact() {
             <p className="is-danger">{errorMessage}</p>
           </div>
       )}
+      <p></p>
 
 
-    <button type="submit" className="btn btn-dark">Send</button>
+    <button type="submit" className="btn btn-dark w-100">Send</button>
     </form>
     </div>
     </div>

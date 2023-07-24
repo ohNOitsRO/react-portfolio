@@ -39,55 +39,55 @@ export default function Resume() {
       <center className="font"><u>Technical Skills</u></center>
       <div className="lead row justify-content-center">
         <div className="row justify-content-center align-items-center">
-          <div className="col-2">
+          <div className="col">
             <img src={HTML5logo} alt="HTML5 Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
-          <div className="col-2">
+          <div className="col">
             <img src={CSS3logo} alt="CSS3 Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
-          <div className="col-2">
+          <div className="col">
             <img src={JSlogo} alt="Javascript Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
-          <div className="col-2">
+          <div className="col">
             <img src={JQuerylogo} alt="JQuery Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
-          <div className="col-2">
+          <div className="col">
             <img src={Handlebarslogo} alt="Handlebars Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
         </div>
 
         <div className="row justify-content-center align-items-center">
-          <div className="col-2">
+          <div className="col">
             <img src={Mongodblogo} alt="MongoDB Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
-          <div className="col-2">
+          <div className="col">
             <img src={Expresslogo} alt="Express Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
-          <div className="col-2">
+          <div className="col">
             <img src={Reactlogo} alt="React Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
-          <div className="col-2">
+          <div className="col">
             <img src={Nodelogo} alt="Node Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
-          <div className="col-2">
+          <div className="col">
             <img src={mySQLlogo} alt="mySQL Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
         </div>
 
         <div className="row justify-content-center align-items-center">
-          <div className="col-2">
+          <div className="col">
             <img src={Bootstraplogo} alt="Bootstrap Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
-          <div className="col-2">
+          <div className="col">
             <img src={Materializelogo} alt="Materialize Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
-          <div className="col-2">
+          <div className="col">
             <img src={MUIlogo} alt="MUI Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
-          <div className="col-2">
+          <div className="col">
             <img src={Sequelizelogo} alt="Sequelize Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
-          <div className="col-2">
+          <div className="col">
             <img src={GraphQLlogo} alt="GraphQL Logo" className="d-block mx-auto img-fluid hvr-bob"></img>
           </div>
         </div>
