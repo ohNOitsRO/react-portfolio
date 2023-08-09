@@ -22,14 +22,14 @@ export default function Resume() {
   return (
       <>
       <div className="container-fluid">
-      <div className="container row">
+      <div className="container row badgecenter">
 
-      <div className= "col-md-4">
+      <div className= "col-md-4 w-75">
       <a href={process.env.PUBLIC_URL + "/RD_Resume.pdf"} download className="badgecenter">
       <img src={Fullstackbadge}
            alt="Roland's Resume"
            className="img-fluid"></img></a>
-           <center>Click the badge to download my Resume!</center>
+           <h3><center>Click the badge to download my Resume!</center></h3>
       </div>
 
 
