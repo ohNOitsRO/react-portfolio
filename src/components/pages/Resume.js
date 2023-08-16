@@ -24,7 +24,7 @@ export default function Resume() {
       <div className="container-fluid">
       <div className="container row badgecenter">
 
-      <div className= "col-md-4 w-75">
+      <div className= "col-md-4 w-50">
       <a href={process.env.PUBLIC_URL + "/RD_Resume.pdf"} download className="badgecenter">
       <img src={Fullstackbadge}
            alt="Roland's Resume"
@@ -33,7 +33,7 @@ export default function Resume() {
       </div>
 
 
-<div className="col-md-8">
+<div className="col-md-8 logosize">
   <div className="card">
     <div className="card-body h-100">
       <center className="font"><u>Technical Skills</u></center>

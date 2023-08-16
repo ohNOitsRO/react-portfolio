@@ -183,6 +183,12 @@ main {
 
 }
 
+/* .badgecenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
 .badgecenter {
   display: flex;
   align-items: center;
@@ -213,6 +219,18 @@ footer {
 #contactImages:hover {
   transform: scale(1.5);
   transition-duration: 0.5s;
+}
+
+/* Media Query Logo Sizing */
+
+.logosize {    
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+  .logosize {
+    width: 75%;
+  }
 }
 
 
